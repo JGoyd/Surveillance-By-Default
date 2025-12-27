@@ -5,7 +5,10 @@
 ## TL;DR / Executive Summary
 
 ### The Discovery
-Forensic analysis of Apple Rose (U1/U2) Ultra Wideband firmware reveals ARM Cortex-M architecture—the universal embedded processor used across ALL wireless chipset vendors. This creates precision tracking capabilities (10-30 cm accuracy) that operate independently of host OS control.
+
+Forensic analysis of Apple Rose (U1/U2) Ultra Wideband firmware logs uncovered ARM Cortex-M processor architecture with cryptographically signed telemetry (SLOGG/SSIG markers), binary-encoded ranging data, and ARM-standard memory pointer patterns (pWR=, pXfr, pKdx). This is not Apple-specific technology—ARM Cortex-M is the universal embedded processor licensed by ALL wireless chipset vendors globally. 
+
+The firmware reveals a precision tracking system capable of 10-30 centimeter location accuracy with directional awareness (±5 degrees), operating on an independent ARM processor separate from the host CPU. This architecture enables surveillance capabilities that function outside host OS control, survive factory resets, and cannot be disabled by users—all by design and industry specification.
 
 ### The Problem
 This is not an Apple-specific issue, but a systemic architectural reality: ARM Cortex-M is the industry-standard processor in wireless chipsets (WiFi, Bluetooth, UWB, NFC). What appears as "vendor-specific" firmware is actually universal ARM architecture enabling identical surveillance capabilities across all manufacturers.
