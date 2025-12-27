@@ -6,7 +6,7 @@
 
 ### The Discovery
 
-Forensic analysis of Apple Rose (U1/U2) Ultra Wideband firmware logs uncovered ARM Cortex-M processor architecture with cryptographically signed telemetry (SLOGG/SSIG markers), binary-encoded ranging data, and ARM-standard memory pointer patterns (pWR=, pXfr, pKdx). This is not Apple-specific technology—ARM Cortex-M is the universal embedded processor licensed by ALL wireless chipset vendors globally. 
+Forensic analysis of Apple Rose (U1/U2) Ultra Wideband firmware logs uncovered ARM Cortex-M processor architecture with cryptographically signed telemetry (SLOGG/SSIG markers), binary-encoded ranging data, and ARM-standard memory pointer patterns (pWR=, pXfr, pKdx). This is not Apple-specific technology—ARM Cortex-M is the universal embedded processor licensed by wireless chipset vendors globally. 
 
 The firmware reveals a precision tracking system capable of 10-30 centimeter location accuracy with directional awareness (±5 degrees), operating on an independent ARM processor separate from the host CPU. This architecture enables surveillance capabilities that function outside host OS control, survive factory resets, and cannot be disabled by users—all by design and industry specification.
 
