@@ -86,7 +86,7 @@ Modern UWB chipsets from all major vendors (Apple, Qorvo, NXP, Samsung, STMicroe
 | **Precision Tracking** | UWB ranging (10-30 cm) | Universal (802.15.4z spec) |
 | **Independent Processor** | Separate ARM core | Universal (all chipsets) |
 
-**Complete technical analysis with file hashes and verification commands:** See `ARM_Cortex_M_UWB_Technical_Report.md`
+**Complete technical analysis with file hashes and verification commands in technical analysis** 
 
 ---
 
