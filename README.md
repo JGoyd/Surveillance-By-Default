@@ -299,7 +299,7 @@ A: ARM Holdings and chipset vendors must disclose Cortex-M firmware. Regulators 
 
 ## Disclosure
 
-**Date:** December 27, 2025  
+**Date:** December 26, 2025  
 **Researcher:** Joseph Goydish II  
 **Primary Analysis:** Apple Rose (U1/U2) ARM Cortex-M firmware  
 **Scope:** Industry-wide ARM Cortex-M architectural vulnerability in UWB chipsets  
