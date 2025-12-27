@@ -330,7 +330,7 @@ This research is provided in the public interest to expose ARM Cortex-M as the u
 ```
 Goydish II, J. (2025). ARM Cortex-M in Wireless Chipsets: Surveillance-By-Design.
 Analysis of Apple Rose (U1/U2) and Cross-Vendor ARM Architecture Comparison.
-[https://github.com/JGoyd/ARM-Cortex-M-Surveillance]
+[https://github.com/JGoyd/Surveillance-By-Default]
 ```
 
 ---
