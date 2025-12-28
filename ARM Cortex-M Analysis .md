@@ -269,39 +269,6 @@ head -c 64 RoseFirmwareLogs.bin | od -A x -t x1z -v
 
 ---
 
-## Verification Methodology
-
-### Step 1: Identify Chipset
-```bash
-# iOS
-# Settings > Privacy & Security > Location Services > System Services > Networking & Wireless
-
-# Android (Samsung)
-# Settings > Connections > More connection settings > Nearby device scanning
-
-# Check device specs for UWB support
-```
-
-### Step 2: Extract Firmware
-- iOS: System diagnostics logs (sysdiagnose)
-- Android: Vendor-specific logging
-- Development boards: JTAG/SWD debug interface
-
-### Step 3: Analyze Binary
-```bash
-# Check for ARM Cortex-M patterns
-strings firmware.bin | grep "^p[A-Z]"
-
-# Check for cryptographic logging
-strings firmware.bin | grep -E "SLOGG|SSIG"
-
-# Check for ARM architecture
-file firmware.bin
-od -A x -t x1z -v firmware.bin | head -50
-```
-
----
-
 ## Evidence Summary
 
 ### Apple U1/U2 Analysis Results
